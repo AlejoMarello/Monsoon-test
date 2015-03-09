@@ -1,0 +1,34 @@
+.monsoon-gallery{
+  margin: 2rem;
+  padding: 1rem;
+  border: solid 1px $gallery-border-color;
+}
+.monsoon-gallery__title{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+.monsoon-gallery__button{}
+.monsoon-gallery__image{
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+.monsoon-gallery__body{
+  position: relative;
+}
+.monsoon-gallery__image-title{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: $title-overlay-color;
+  color: $title-color;
+}
+.monsoon-gallery__notice{
+  background-color: $notice-bkg-color;
+  color: $notice-color;
+}

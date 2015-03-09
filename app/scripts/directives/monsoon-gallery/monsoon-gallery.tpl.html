@@ -1,0 +1,28 @@
+<div class="monsoon-gallery">
+  <div class="monsoon-gallery__title">{{name}}</div>
+  <div class="monsoon-gallery__body center-block">
+    <button type="button"
+      class="btn btn-primary monsoon-gallery__button"
+      ng-disabled="loading || invalid"
+      ng-click="onLast()">Last</button>
+    <div class="monsoon-gallery__image">
+      <monsoon-image
+        class="expand"
+        ng-if="!loading"
+        src="imageData.url">
+      </monsoon-image>
+      <div class="monsoon-gallery__image-title">{{imageData.title}}</div>
+      <div ng-if="invalid"
+        class="monsoon-gallery__notice expand center-block">Images not loaded to the gallery</div>
+    </div>
+    <button type="button"
+      class="btn btn-primary monsoon-gallery__button"
+      ng-disabled="loading || invalid"
+      ng-click="onNext()">Next</button>
+    <div class="expand center-block"
+      ng-if="loading">
+      <span class="fa fa-2x fa-refresh fa-spin center">
+    </span>
+    </span>
+  </div>
+</div>

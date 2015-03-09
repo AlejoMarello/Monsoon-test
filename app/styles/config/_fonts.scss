@@ -1,0 +1,17 @@
+@import "compass/css3/hyphenation";
+
+.hyphes {
+  @include hyphenation;
+}
+
+div {
+  @extend .hyphes;
+}
+
+.main-font {
+  font-family: 'Helvetica Neue', 'Baskerville';
+}
+
+.secondary-font {
+  font-family: 'Franklin Gothic', 'Bodoni';
+}

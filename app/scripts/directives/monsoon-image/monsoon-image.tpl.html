@@ -1,0 +1,12 @@
+<div class="monsoon-image expand" ng-class="!isLoaded && holderClass">
+  <img class="monsoon-image__item"
+    ng-src="{{src}}"
+    ng-show="isLoaded"
+    ng-class="{'monsoon-image__item--loaded': isLoaded }"></img>
+  <div
+    ng-hide="isLoaded"
+    ng-class="{'monsoon-image__no-item--loaded': isLoaded }"
+    class="monsoon-image__no-item center-block">
+    <span class="fa fa-2x fa-refresh fa-spin center"></span>
+  </div>
+</div>

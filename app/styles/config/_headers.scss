@@ -1,0 +1,13 @@
+
+.h1 {
+  @extend .main-font;
+  font-size: 32px;
+}
+.h2 {
+  @extend .main-font;
+  font-size: 24px;
+}
+.h3 {
+  @extend .main-font;
+  font-size: 18px;
+}
