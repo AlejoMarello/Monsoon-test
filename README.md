@@ -15,7 +15,7 @@ This project is a test for Monsoon
   * **gem install sass**
   * **gem install compass**
   * **npm install -g grunt-cli**
-  * **npm install -g bower*
+  * **npm install -g bower**
 
 3. Then navigate to the proyect root folder and execute the following commands
   * **npm install**
