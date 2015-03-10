@@ -1,24 +1,27 @@
-# monsoon-project
+# monsoon test
+
+## Description
 
 This project is a test for Monsoon
 
-##Setup enviroment
+## Setup enviroment
 
-#Install the following tools:
--Git
--Ruby v2.0+
--Node v0.10.0+
+1. Install the following tools:
+  * Git
+  * Ruby v2.0+
+  * Node v0.10.0+
 
-#Then open the console and execute the following commands
-gem install sass
-gem install compass
-npm install -g grunt-cli
-npm install -g bower
+2. Then open the console and execute the following commands
+  * **gem install sass**
+  * **gem install compass**
+  * **npm install -g grunt-cli**
+  * **npm install -g bower*
 
-#Then navigate to the proyect root folder and execute the following commands
-npm install
-bower install
+3. Then navigate to the proyect root folder and execute the following commands
+  * **npm install**
+  * **bower install**
 
-##Starting the server
+## Starting the server
 
-To start the proyect execute: grunt serve
+To start the proyect execute:
+**grunt serve**
